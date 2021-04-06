@@ -1,0 +1,27 @@
+{
+    "masks":
+    {
+        "photoresize/vfss1.png":
+		{
+            "mask": "mask/vfss1-4.png",
+            "color_categories":
+            {
+                "(255, 255, 255)": {"category": "ues", "super_category": "markers"}
+            }
+		},
+        "photoresize/vfss2.png":
+		{
+            "mask": "mask/vfss2-4.png",
+            "color_categories":
+            {
+                "(255, 255, 255)": {"category": "ues", "super_category": "markers"}
+            }
+        }
+    },
+    "super_categories":
+    {
+        "face": ["neck", "nose", "mouth"],
+        "traffic-light": ["traffic_light", "go", "stop", "caution"],
+		"markers": ["food_bolus", "pharyngeal_line", "hyoid_distance", "hyoid_angle", "ues"]
+    }
+}
